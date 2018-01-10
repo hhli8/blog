@@ -1,0 +1,41 @@
+.scroll-box{
+    padding-top: 0;
+}
+.advertise{
+    height: 4rem;
+    .mint-swipe-item{
+        a{
+            display: block;
+            height: 100%;
+            img{
+                height: 100%;
+                width:100%;
+            }
+        }
+    }
+}
+.nav-fixed{
+    height: 1rem;
+    line-height: 1rem;
+    background: #F0F0F0;
+    transition: all linear .3s;
+    box-sizing: content-box;
+    border-bottom: .02rem solid #eee;
+    li{
+        width:25%;
+        text-align: center;
+        a{
+            display: block;
+            height: 100%;
+            color:#333;
+            font-size: .32rem;
+            font-weight: bold;
+        }
+    }
+}
+.nav-fixed.fixed{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+}
